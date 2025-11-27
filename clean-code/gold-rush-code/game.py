@@ -10,10 +10,7 @@ class GoldRush(Matrix):
         self.coins = 0
 
     def load_board(self):
-        """
-        Initializes the game board with a mix of walls, coins, and empty spaces.
-        Ensures at least 10 coins are present on the board.
-        """
+   
 
         # If both rows and columns are zero, set an empty board and return
         if self.rows == 0 and self.cols == 0:
